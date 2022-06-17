@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Котяй Данило Анатолійович, ІТ-94, лаба 2, варіант 21</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        table,
+        td {
+            border: 1px solid black;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        #firstCell {
+            width: 50%;
+        }
+
+        #lastCell {
+            width: 25%;
+        }
+
+        #lastCellFirstRow {
+            width: 12.5%;
+        }
+
+        #first-row {
+            color: #F5A61D;
+            background-color: #218f8f;
+        }
+
+        #second-row {
+            color: #4437D6;
+            background-color: #f5f521;
+        }
+
+        #first-row:hover {
+            color: #4437D6;
+            background-color: #f5f521;
+        }
+
+        #second-row:hover {
+            color: #F5A61D;
+            background-color: #218f8f;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr id="first-row">
+            <td id="firstCell" rowspan="2" colspan="4">Котяй</td>
+            <td colspan="2">Данило</td>
+            <td rowspan="2">Анатолійович</td>
+            <td id="lastCellFirstRow" rowspan="2"></td>
+        </tr>
+
+        <tr id="second-row">
+            <td colspan="2">ІТ-94 ЛР-2 Варіант 21</td>
+        </tr>
+
+        <tr>
+            <td colspan="2"></td>
+            <td rowspan="2" colspan="2"></td>
+            <td rowspan="2" colspan="2"></td>
+            <td id="lastCell" rowspan="2" colspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+        </tr>
+    </table>
+
+    <div class="traffic-lights-main">
+        <div id="red" class="traffic-lights-light"></div>
+        <div id="yellow" class="traffic-lights-light"></div>
+        <div id="green" class="traffic-lights-light"></div>
+    </div>
+
+</body>
+
+</html>
